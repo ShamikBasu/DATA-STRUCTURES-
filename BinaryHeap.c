@@ -6,11 +6,11 @@
 //ADVANTAGES-> FAST AND SPACE EFFICIENT
 // FOR COMPLETE BINARY TREE , THE HEIGHT AT MAX IS LOG N WHERE N= NUMBER OF NODES
 // ARRAY INDEX AS PER THE TREE NODES ARE DENOTED IN THE FOLLOWING WAY			
-//				 1
-//			  /	 	\
-//		     2	 	 3
-// 		   /  \	 	/  \
-//		  4    5   6   7    
+//			     1
+//			  /	\
+//		    	 2	 3
+// 		   	/  \	/  \
+//		       4    5   6   7    
 // variables-> maxSize = max no. of elements in the heap    size=size of the heap  H[]=the array for the heap 
 
 #include<stdio.h>
@@ -102,7 +102,7 @@ void getMax()//O(1)
 {
 	printf("MAXIMUM ELEMENT=%d\n",H[1]);
 }
-int main() //main function , can be done by switch case too
+int main() //main function , can be done by switch case too 
 {
 	int ch=1;
 	while(ch!=0)
