@@ -5,7 +5,8 @@
 // TIME O(N) 
 // SPACE O(1)
 // we are using the formula
-//maxSum[i]= maximum of(maxSum[i-1] , maxSum[i-2]+array[i]) where array is the input array
+// we only need to store two conditions -> first= current , second= first , current=max(first, second+array[i])
+// THIS REDUCES THE SPACE TO CONSTANT
 // HOWEVER THERE IS A CONSTRAINT OF THE ELEMENTS HAS TO BE POSITIVE , BECAUSE NEGATIVE VALUE WOULD TWEAK THE SUM AND HENCE THE FORMULA
 
 #include<stdio.h>
